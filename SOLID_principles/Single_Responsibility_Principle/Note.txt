@@ -1,0 +1,4 @@
+1) Single Responsibility Principle, States that
+each class must be given, a single responsibility and must adhere to that
+here we have a Cook class with a different set of attributes
+and a Waiter class with a different set of attributes

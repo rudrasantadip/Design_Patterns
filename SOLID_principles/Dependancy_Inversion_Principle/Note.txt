@@ -1,0 +1,5 @@
+"High-level modules should not depend on low-level modules. Both should depend on abstractions."
+
+basically it means,  the high level classes that we create 
+should not inherit other concrete classes, because if there is a concrete description
+we need to change it entirely if we require modification

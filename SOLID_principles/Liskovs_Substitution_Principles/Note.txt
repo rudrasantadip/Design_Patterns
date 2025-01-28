@@ -1,0 +1,15 @@
+"Objects of a superclass should be replaceable with objects of its subclasses without altering the correctness of the program."
+
+let us say we have a bird class with a fly() method,
+
+now we created three sub classes for it
+Sparrow
+Eagle 
+Penguin
+
+now here the Penguin will not be able to invoke the Fly method, since Penguins cannot fly.
+now this is a violation of the Liskov's Substitution Principle, as theoritically
+all the subclasses must be able to substitute the parent class.
+But the penguin here makes an exception...
+
+so we change our appraoch of designing this relationship

@@ -1,0 +1,3 @@
+"A class should not be forced to implement methods it does not use."
+In other words, it's better to create multiple specific interfaces rather than one large, general-purpose interface. 
+This principle prevents implementing unused methods and reduces unnecessary dependencies between classes.

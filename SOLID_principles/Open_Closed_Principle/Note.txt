@@ -1,0 +1,9 @@
+Open Closed Principle states that
+all entities in software let them be classes, interfaces, functions or modules
+once they are created they should not be subjected to anykind of modification.
+If at all any modification or newer feature is required we can extend that particular 
+entity inherit its features and add our new features to the new entity
+
+for example if we have a cook, who can create continental dishes,
+now if we want to calculate area for different shapes, 
+what we can do is create a Shape interface and build other classes on top of it.
