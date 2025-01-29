@@ -1,0 +1,3 @@
+In the singleton pattern there is only as single global object that is created, all the other classes which need to use it can reference it. But no dublicate or second instance of that class is created.
+This is usefull incase of handling objects where the data is not changed
+like configuration classes, for database connectivity or service classes, which only define a couple of methods,  
